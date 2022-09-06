@@ -1,0 +1,11 @@
+email: ''
+pass: ''
+meeting_information:
+  BKMS2: 
+    id: 6942581798
+    start_hour: 10
+    least_num_student: 10
+  P4DS: 
+    id: 92277928427
+    start_hour: 15
+    least_num_student: 10
