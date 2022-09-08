@@ -63,7 +63,6 @@ def set_month(driver, datetime):
 
     calender_days = driver.find_element(By.XPATH, '//*[@id="ui-datepicker-div"]/table/tbody').find_elements(By.TAG_NAME, 'a')
     for i, c in enumerate(calender_days):
-        print(c.text, end=' ')
         if int(c.text) == datetime.day:
             break
     c.click()
